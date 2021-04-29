@@ -214,6 +214,18 @@ EDS_SENSORS = {
             "type": SENSOR_TYPE_HUMIDITY,
         },
     ],
+    "EDS0065": [
+        {
+            "path": "EDS0065/temperature",
+            "name": "Temperature",
+            "type": SENSOR_TYPE_TEMPERATURE,
+        },
+        {
+            "path": "EDS0065/humidity",
+            "name": "Humidity",
+            "type": SENSOR_TYPE_HUMIDITY,
+        },
+    ],    
 }
 
 
